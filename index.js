@@ -19,5 +19,5 @@ function addNewElementAsLi() {
 function addNewLiOnClick() {
   let submit = document.querySelector('input[type="submit"]');
   submit.addEventListener('click', addNewElementAsLi);
-  document.querySelector('input[type="text"]').value = ""
+  document.querySelector('input[type="text"]').reset
 }
