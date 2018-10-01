@@ -23,5 +23,5 @@ function addNewLiOnClick() {
 }
 
 function clearEmployeeListOnLinkClick() {
-  let clear = document.querySelector('Clear Employee List')
+  let clear = document.querySelector('a')
 }
