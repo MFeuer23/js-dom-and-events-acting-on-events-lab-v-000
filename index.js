@@ -25,6 +25,6 @@ function addNewLiOnClick() {
 function clearEmployeeListOnLinkClick() {
   let clear = document.querySelector('a');
   clear.addEventListener('click', function() {
-    document.querySelector('ul').remove()
+    document.querySelector('li')
   })
 }
