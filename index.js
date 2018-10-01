@@ -14,7 +14,7 @@ function addNewElementAsLi() {
   let li = document.createElement('li')
   document.querySelector('ul').appendChild(li);
   li.append(`${retrieveEmployeeInformation()}`);
-  document.querySelector('input').value = ''
+  document.querySelector('input').value = '';
 }
 
 function addNewLiOnClick() {
