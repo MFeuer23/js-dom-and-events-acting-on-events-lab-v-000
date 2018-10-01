@@ -6,8 +6,10 @@ function preventRefreshOnSubmit(){
 
 preventRefreshOnSubmit()
 
-const retrieveEmployeeInformation = function () {
+const retrieveEmployeeInformation = function retrieveEmployeeInformation() {
   return document.querySelector('input').value;
 }
 
-function addNewElementAsLi()
+function addNewElementAsLi() {
+  
+}
