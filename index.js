@@ -10,6 +10,6 @@ const retrieveEmployeeInformation = function retrieveEmployeeInformation() {
   return document.querySelector('input').value;
 }
 
-function addNewElementAsLi() {
-  
+function addNewElementAsLi(retrieveEmployeeInformation) {
+  document.querySelector('ul').append(retrieveEmployeeInformation())
 }
