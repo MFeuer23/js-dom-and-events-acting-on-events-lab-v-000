@@ -11,5 +11,5 @@ const retrieveEmployeeInformation = function retrieveEmployeeInformation() {
 }
 
 function addNewElementAsLi(retrieveEmployeeInformation) {
-  return document.querySelector('ul').append(retrieveEmployeeInformation)
+  return document.querySelector('ul').append(`${retrieveEmployeeInformation()}`)
 }
