@@ -11,9 +11,9 @@ const retrieveEmployeeInformation = function retrieveEmployeeInformation() {
 }
 
 function addNewElementAsLi() {
-  return document.querySelector('ul').append(`${retrieveEmployeeInformation()}`)
+  return document.querySelector('ul').append(`${retrieveEmployeeInformation()}`);
 }
 
 function addNewLiOnClick() {
-  
+  let submit = document.querySelector('input[type="submit"]')
 }
